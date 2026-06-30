@@ -22,7 +22,41 @@
             align-items: center;
             color: white;
             text-align: center;
-        }
+        }.form-box {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 280px;
+    margin: auto;
+}
+
+.form-box input {
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.form-box label {
+    color: white;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: #00ffcc;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #00ccaa;
+}
 
         .box {
             background: rgba(0, 0, 0, 0.6);
@@ -57,6 +91,22 @@
             📞 Telefon: +998 90 478 28 07
         </div>
     </div>
+    <h2>📄 Ariza to‘ldirish</h2>
+
+<form class="form-box">
+
+    <input type="text" placeholder="Ism" required>
+
+    <input type="text" placeholder="Familiya" required>
+
+    <input type="tel" placeholder="Telefon raqam (+998...)" required>
+
+    <label>📅 Qachon ketmoqchisiz?</label>
+    <input type="date" required>
+
+    <button type="submit">Yuborish</button>
+
+
 
 </body>
 </html>
