@@ -1,113 +1,158 @@
 <!DOCTYPE html>
 <html lang="uz">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mening Saytim</title>
 
-<style>
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    color: white;
-    scroll-behavior: smooth;
-}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-/* ORQA FON */
-section {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    padding: 20px;
-}
+    <title>Shox Sertifikat</title>
 
-/* 1-SAHIFA */
-#home {
-    background-image: url('https://images.unsplash.com/photo-1502920917128-1aa500764cbd');
-background-size: cover;
-background-position: center;
-background-attachment: fixed;
-   
-}
+    <link rel="stylesheet" href="style.css">
 
-/* QORA BLOK */
-.box {
-    background: rgba(0,0,0,0.6);
-    padding: 30px;
-    border-radius: 15px;
-}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 
-/* 2-SAHIFA */
-#form {
-    background: #111;
-}
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-/* FORM */
-.form-box {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    width: 280px;
-}
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-input {
-    padding: 12px;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-}
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
-button {
-    padding: 12px;
-    border: none;
-    border-radius: 10px;
-    background: #00ffcc;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-button:hover {
-    background: #00ccaa;
-}
-
-</style>
 </head>
 
 <body>
 
-<!-- 1-SAHIFA -->
-<section id="home">
-    <div class="box">
-        <h1>🚀 Xush kelibsiz. Shox sertifikat sizning xizmatingizda!!</h1>
-        <p>Assalomu aleykum sizga rus tilidan sertifikat kerakmi. Iltimos arizani toldiring bizni ozimiz sizga aloqaga chiqamiz</p>
-        <div>📞 +998 90 478 28 07 </div>
-    </div>
-</section>
+    <!-- NAVBAR -->
 
-<!-- 2-SAHIFA -->
-<section id="form">
-    <h2>📄 Ariza to‘ldirish</h2>
+    <header>
 
-    <form class="form-box">
-        <input type="text" placeholder="Ism" required>
-        <input type="text" placeholder="Familiya" required>
-        <input type="tel" placeholder="Telefon raqam" required>
-        <select required>
-    <option value="">Rus tili darajangizni tanlang</option>
-    <option value="0">Umuman bilmayman</option>
-    <option value="1">Ozgina bilaman</option>
-    <option value="2">Yaxshi bilaman</option>
-</select>
+        <nav>
 
-        <label>📅 Ketish sanasi</label>
-        <input type="date" required>
+            <div class="logo">
 
-        <button type="submit">Yuborish</button>
-    </form>
-</section>
+                SHOX SERTIFIKAT
+
+            </div>
+
+            <ul>
+
+                <li>
+
+                    <a href="#">
+
+                        <i class="fa-brands fa-instagram"></i>
+
+                        Instagram
+
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="#">
+
+                        <i class="fa-brands fa-telegram"></i>
+
+                        Telegram Kanal
+
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="#">
+
+                        <i class="fa-regular fa-user"></i>
+
+                        Telegram Profil
+
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="#about">
+
+                        <i class="fa-solid fa-users"></i>
+
+                        Biz haqimizda
+
+                    </a>
+
+                </li>
+
+            </ul>
+
+            <a href="#" class="test-btn">
+
+                Test topshirish
+
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <div class="overlay"></div>
+
+        <div class="hero-content">
+
+            <h1>
+
+                SHOX SERTIFIKAT
+
+            </h1>
+
+            <p>
+
+                Agar sizga sertifikat kerak bo'lsa
+
+                <br>
+
+                sariq tugmani bosing!
+
+            </p>
+
+            <a href="#" class="apply-btn">
+
+                ARIZA QOLDIRISH
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- ABOUT -->
+
+    <section id="about">
+
+        <h2>
+
+            About Us
+
+        </h2>
+
+    </section>
+
+<script src="script.js"></script>
 
 </body>
+
 </html>
